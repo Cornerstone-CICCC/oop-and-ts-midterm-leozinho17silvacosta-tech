@@ -1,0 +1,86 @@
+/* IMPORT: */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Chicle&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Stalinist+One&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Changa+One:ital@0;1&family=Chicle&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Stalinist+One&family=Young+Serif&display=swap');
+
+
+/* CART ITEM CSS: */
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: rgba(61, 204, 204, 0.097);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    gap: 57px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.cart-item img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+    padding-right: 30px;
+    border-right: 1px solid rgba(106, 106, 106, 0.448);
+}
+
+.cart-item-info {
+    font-family: 'Outfit', sans-serif;
+}
+
+.cart-item-info h4 {
+    font-size: 2.25rem;
+    margin-bottom: 30px;
+}
+
+.cart-item-info p {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+/* CART BUTTONS: */
+
+.cart-item-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.quantity-buttons {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+}
+
+.quantity-buttons button {
+    background: none;
+    border: 1px solid #000000;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.quantity-buttons button:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-remove {
+    background: none;
+    border: 1px solid rgba(255, 0, 0, 0.581);
+    color: black;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.btn-remove:hover {
+    background: #ff4d4d;
+    color: white;
+}

@@ -1,0 +1,78 @@
+/* IMPORT: */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Chicle&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Stalinist+One&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Changa+One:ital@0;1&family=Chicle&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Stalinist+One&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Chicle&family=Delius&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Stalinist+One&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Chicle&family=Delius&family=Dongle&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Patrick+Hand&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Stalinist+One&family=Young+Serif&display=swap');
+
+/* FOOTER CSS: */
+
+.main-footer {
+    background-color: rgba(147, 216, 244, 0.953);;
+    padding: 40px 0 20px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between  ;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+}
+
+.footer-section h2{
+    margin-top: 50px;
+}
+
+.footer-section img {
+    height: 250px;
+    width: auto;
+    border-radius: 50px;
+    transition: all 0.5s ease;
+}
+
+.footer-section img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 20px 5px rgba(0, 60, 255, 0.488);
+}
+
+.footer-logo-text {
+    font-family: 'Chicle', sans-serif;
+    font-size: 5rem;
+}
+
+.footer-logo-text:hover {
+    transform: translateY(-5px);
+}
+
+.footer-p-text {
+    font-family: 'Delius', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    transition: all 0.8s ease;
+}
+
+.footer-p-text:hover {
+    transform: translateY(-5px);
+    background-color: black;
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: black;
+}
