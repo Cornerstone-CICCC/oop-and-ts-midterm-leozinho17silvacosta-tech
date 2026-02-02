@@ -30,6 +30,18 @@ export class App extends Component {
     this.container.addEventListener('click', (event) => {
       const target = event.target;
 
+// BURGER MENU: //
+
+      if (target.closest('.menu-toggle')) {
+        const navMenu = this.container.querySelector('.nav-menu');
+        navMenu.classList.toggle('active');
+      }
+
+      if (target.classList.contains('nav-link')) {
+        const navMenu = this.container.querySelector('.nav-menu');
+        if (navMenu) navMenu.classList.remove('active');
+      }
+
 // NAVIGATION: // 
 
       if (target.classList.contains('nav-link-home')) {

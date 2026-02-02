@@ -70,3 +70,69 @@
 .btn-login:hover {
     animation: pulse-border 1.5s infinite;
 }
+
+/* RESPONSIVITY MOBILE: */
+
+@media (max-width: 768px) {
+    
+    .login-section {
+        padding: 20px;
+        min-height: 70vh;
+    }
+
+    .login-container {
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .login-container h2 {
+        font-size: 2rem;
+    }
+
+    .form-group input {
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    .btn-login {
+        padding: 15px;
+        font-size: 1.1rem;
+    }
+}
+
+/* RESPONSIVITY BIG SCREEN: */
+
+@media (min-width: 2500px) {
+
+    .login-container {
+        max-width: 2000px;
+        height: 1200px;
+        padding: 80px;
+        border-radius: 30px;
+        gap: 100px;
+        font-size: 5rem;
+    }
+
+    .login-container h1 {
+        font-size: 8rem;
+        margin-bottom: 30px;
+    }
+
+    .form-group label {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .form-group input {
+        padding: 30px;
+        font-size: 2rem;
+        border-radius: 15px;
+        border-width: 3px;
+    }
+
+    .btn-login {
+        padding: 30px;
+        font-size: 2.5rem;
+        border-radius: 15px;
+    }
+}

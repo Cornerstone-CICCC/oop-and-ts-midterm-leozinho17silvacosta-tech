@@ -26,3 +26,39 @@
     transform: translateY(-5px);
     font-size: 2rem;
 }
+
+/* RESPONSIVITY MOBILE: */
+
+@media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .products-grid p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+/* RESPONSIVITY BIG SCREEN: */
+
+@media (min-width: 2500px) {
+    .products-grid {
+        grid-template-columns: repeat(5, 1fr); 
+        gap: 60px;
+        max-width: 3500px;
+        margin: 0 auto;
+        padding: 80px;
+    }
+
+    .products-grid p {
+        font-size: 3rem;
+        padding: 40px;
+    }
+
+    .products-grid p:hover {
+        font-size: 4rem;
+    }
+}
