@@ -1,0 +1,54 @@
+/* IMPORT: */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Chicle&family=Delius&family=Dongle&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jua&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Luckiest+Guy&family=Outfit:wght@100..900&family=Patrick+Hand&family=Playwrite+NZ+Basic:wght@100..400&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Stalinist+One&family=Young+Serif&display=swap');
+
+/* APP CSS: */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.cart-section {
+    display: none;
+}
+
+.section-title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    transition: all 1.5s ease;
+}
+
+.section-title:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.cart-page-section {
+    background-color: #ebfcff8c;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* RESPONSIVITY BIG SCREEN: */
+
+@media (min-width: 2500px) {
+
+    .section-title {
+        margin-top: 100px;
+        font-size: 7rem;
+    }
+}

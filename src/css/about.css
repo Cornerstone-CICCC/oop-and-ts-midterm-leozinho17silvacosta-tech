@@ -1,0 +1,129 @@
+/* IMPORT: */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Changa+One:ital@0;1&family=Chicle&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Stalinist+One&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Changa+One:ital@0;1&family=Chicle&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100..900&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Stalinist+One&family=Young+Serif&display=swap');
+
+/* ABOUT CSS: */
+
+.about-section {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #ebfcff8c;
+}
+
+.about-container {
+    max-width: 800px;
+    text-align: center;
+}
+
+.about-title {
+    font-family: 'Chicle', sans-serif;
+    font-size: 5rem;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 1.25rem;
+    line-height: 2.5;
+    color: black;
+    margin-bottom: 40px;
+    font-family: 'Outfit', sans serif;
+}
+
+.about-stats {
+    font-family: 'Chicle', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #007bff5c;
+    padding-top: 30px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-item strong {
+    font-size: 3rem;
+    color: black;
+}
+
+.stat-item span {
+    font-family: 'Outfit', sans serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: #007bff;
+    text-transform: uppercase;
+}
+
+/* RESPONSIVIDADE MOBILE */
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 40px 15px;
+    }
+
+    .about-title {
+        font-size: 3rem;
+        line-height: 1.1;
+    }
+
+    .about-text {
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    .about-stats {
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 20px;
+    }
+
+    .stat-item strong {
+        font-size: 2.5rem;
+    }
+
+    .stat-item span {
+        font-size: 0.9rem;
+    }
+}
+
+/* RESPONSIVITY BIG SCREEN: */
+
+@media (min-width: 2500px) {
+    .about-section {
+        padding: 150px 0;
+    }
+
+    .about-container {
+        max-width: 1800px;
+    }
+
+    .about-title {
+        font-size: 12rem;
+        margin-bottom: 60px;
+    }
+
+    .about-text {
+        font-size: 3rem;
+        line-height: 4;
+        margin-bottom: 100px;
+    }
+
+    .about-stats {
+        padding-top: 80px;
+        border-top-width: 5px;
+    }
+
+    .stat-item strong {
+        font-size: 8rem;
+    }
+
+    .stat-item span {
+        font-size: 2.5rem;
+        letter-spacing: 5px;
+    }
+}

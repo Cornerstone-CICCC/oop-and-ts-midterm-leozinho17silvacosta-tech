@@ -1,1 +1,11 @@
-/* YOUR CSS HERE */
+/* GLOBAL CSS: */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(0, 183, 255, 0.274) 30%, rgba(0, 183, 255, 0.559) 40%, rgba(0, 183, 255, 0.274));
+}
